@@ -1,0 +1,65 @@
+@media screen and (max-width:1600px){
+}
+@media screen and (max-width: 1400px){
+	.container{width: 100%; padding: 0 20px;}
+	.big-intro-content{ gap: 1rem;}
+}
+@media screen and (max-width: 1199px){
+	#header{ height: 80px;}
+	#header #m-menu{ display: block; font-size: 24px; width: 40px; line-height: 40px; z-index: 9; position: absolute; text-align: center; color: #fff; cursor: pointer; position: absolute; top: 50%; transform: translateY(-50%); right: 0px;}
+	#header #m-menu.active{ color: #D9232E;}
+	#header #menu{display: none;}
+	#header #menu.active{display: block !important; position: absolute; top: 50px; left: auto; right: 0px; width: 250px; background: rgba(0,0,0,.95); padding: 1rem; border-radius: 1rem;}
+	#header #menu .top-menu{margin: 0; flex-direction: column;}
+	#header #menu .top-menu li{display: block; text-align: right; width: 100%; padding: .75rem 1rem;}
+	#header #menu .top-menu li + li{ margin-left: 0;}
+	#header #menu .top-menu li a{display: block; font-size: 1.2em;}
+	.big-crop{ display: none;}
+	.big-intro-content{ flex-direction: column;}
+	.big-intro-content .bi-left{ padding: 100px 20px 20px; text-align: center; max-width: 800px; margin: 0 auto;}
+	.big-intro-content .bi-right{ width: 100%; height: 500px; overflow: hidden;}
+	.big-intro-content .bi-right img{ right: auto; left: 50%; transform: translateX(-50%);}
+	.content-x{ flex-direction: column !important; max-width: 600px; margin: 0 auto; gap: 2rem;}
+	.content-x .intro{ width: 100%;}
+	.content-x .intro img{ width: 80%;}
+	.heading-2x{ font-size: 2rem;}
+	.section-features{ max-width: 600px; margin: 0 auto;}
+	.features-list .fl-item{ width: calc(100% - 4rem); display: flex; align-items: flex-start; flex-direction: row; gap: 2rem;}
+	.features-list .fl-item .fl-icon{ margin: 0;}
+	.section-download{ padding: 4rem 0;}
+	.section-download .container{ max-width: 640px; margin: 0 auto;}
+	.dl-ul{ flex-direction: column;}
+	.dlu-item{ display: flex; align-items: flex-start; gap: 2rem; flex-direction: column; align-items: center;}
+	.dlu-item .dlu-icon{ margin: 0; flex-shrink: 0;}
+	.dlu-item .dlu-icon img{ height: 55px;}
+	.dlu-item .dlu-detail{ flex-grow: 1;}
+}
+@media screen and (max-width: 640px){
+}
+@media screen and (max-width: 520px){
+	body{ font-size: 14px; line-height: 1.5;}
+	.big-intro .heading{ font-size: 2em;}
+	.big-intro .description{ font-size: 1em;}
+	.big-intro-content .bi-right{ height: auto; padding-bottom: 100%;}
+	.big-intro-content .bi-right img{ height: auto; width: 100%; top: 20px;}
+	.content-x .intro img{ width: 100%;}
+	.section-about + .section-about{ padding-top: 10px;}
+	.features-list{ margin: -1rem;}
+	.features-list .fl-item{ width: calc(100% - 2rem); margin: 1rem;}
+	.heading-2x{ font-size: 1.8em; margin-bottom: 1.5rem;}
+	.heading-2x .inline::before{ display: none;}
+	.sic-item{ padding-left: 60px;}
+	.sic-item .sici-step{ font-size: 30px;}
+	#page-header #logo{ flex-grow: 1; text-align: right;}
+	#page-header #logo img{ height: 40px;}
+	#page-header #header{ height: 60px; padding-top: 20px;}
+}
+@media screen and (max-width: 480px){
+}
+@media screen and (max-width: 479px){
+}
+@media screen and (max-width: 360px){
+	.pbc-heading .dropdown-item{font-size: 14px;}
+}
+@media screen and (max-width: 320px){
+}
